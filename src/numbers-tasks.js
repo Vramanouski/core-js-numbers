@@ -607,7 +607,7 @@ function getMaxNumber(firstNumber, secondNumber) {
  */
 function getRandomInteger(min, max) {
   const answer = Math.random() * (max - min) + min;
-  return Number(answer);
+  return parseInt(answer, 10);
 }
 
 /**
